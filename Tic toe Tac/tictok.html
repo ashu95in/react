@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac</title>
+    <style>
+        * {
+            margin: 0;
+            font-family: verdana;
+            font-size: 25px;
+            background-color: black;
+            color: #fff;
+        }
+
+        h1 {
+            font-size: 2.5vw;
+            margin-top: 15px;
+            margin-bottom: 15px;
+        }
+           
+        .hero {
+            display: grid;
+            margin-top: .2vw;
+            grid-template-columns: 33% 33% 33%;
+            grid-template-rows: 33% 33% 33%;
+            gap: 1px;
+            border-radius: 10px;
+            
+            width: 16vw;
+            height: 16vw;
+
+        }
+        .box{
+            font-size: 4vw;
+            background-color: rgb(195, 194, 194);
+            /* margin-left: 13%; */
+            border-radius: 5px;
+            width: 100%;
+            height: 100%;
+        box-sizing: border-box;
+         border: 2px solid black;
+        }
+        .playerbox{
+            height: 5vw;
+            width:  99.5%;
+            gap: 1vw;
+            display: flex;
+            justify-content: center;
+            flex-direction: row;
+        }
+        .playerbox .innerPlayerbox{
+            font-size: 1.8vw;
+            border-radius: .3vw;
+            width: 8.8vw;
+            height: 2.1vw;
+            align-content: center;
+            text-align: center;
+            background-color:rgb(165, 162, 162) ;
+            border: 2px solid #fff;
+            
+        }
+        .playerbox .py1o2{
+            
+            border: 2px solid goldenrod;
+            background-color: gold;
+            
+        }
+        .playerbox .py1x2{
+            border: 2px solid goldenrod;
+            background-color: gold;
+        }
+    
+     .btn{
+        margin-top: 1vw;
+
+        display: flex;
+
+        justify-content: center;
+
+     }
+     .btn button{
+        width: 15vw;
+        height: 2.5vw;
+        border: 2px solid #fff;
+        font-family: verdana;
+        background-color: rgb(6, 44, 179);
+        font-size: 1.19vw;
+        
+        border-radius: .3vw;
+        
+     }
+     @media (max-width:674px) {
+        h1 {font-size: 10vw;}
+        .hero{
+            width: 75vw;
+            height: 75vw;
+            font-size: 7.8vw;
+        }
+        .box{
+            font-size: 15vw;
+            border-radius: 2.5vw;
+        }
+        .playerbox{height: 20vw; gap: 9vw;}
+        .playerbox .innerPlayerbox{
+            font-size: 7.8vw;
+            width: 35vw;
+            height: 12vw;
+            border-radius: 2.5vw;
+        }
+        .btn{margin-top: 5vw;}
+        .btn button{
+        width: 75vw;
+        height: 10.5vw;
+        font-size: 5.19vw;
+        font-weight: bold;
+        border-radius: 2.5vw;
+        }
+     }
+     
+  
+    </style>
+</head>
+
+<body>
+    <center>
+        <h1>Lets's play Tic Tac</h1>
+    </center>
+         <div class="playerbox">
+           <div class="innerPlayerbox ex" id="py1o" >o</div>
+           <div class="innerPlayerbox " id="py1x">x</div>
+         </div>
+        <center><div class="hero">
+            <span class="box" id="one"></span>
+            <span class="box" id="two"></span>
+            <span class="box" id="three"></span>
+            <span class="box" id="four"></span>
+            <span class="box" id="five"></span>
+            <span class="box" id="six"></span>
+            <span class="box" id="seven"></span>
+            <span class="box" id="eight"></span>
+            <span class="box" id="Nine"></span>
+        </div></center>
+     <div class="btn">
+        
+        <a href=""><button>Restart</button></a>
+     </div>
+<script src="script.js">
+
+
+</script>
+
+
+</body>
+
+</html>
