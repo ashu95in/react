@@ -1,0 +1,27 @@
+[{
+    "id":1,
+   "Name":"Ashu",
+    "Age":"19",
+    "perHour_rate":"41",
+    "working_hour": 8,
+    "Ph_no":"89688437257",
+    "skill":"High level of discipline"
+},
+{    "id":2,
+    "Name":"Goruv",
+     "Age":"19",
+     "perHour_rate":"50",
+     "working_hour": 8,
+     "Ph_no":"8968853598",
+     "skill":"Not found"
+ },
+ {
+    "id":3,
+    "Name":"Goruv",
+     "Age":"19",
+     "perHour_rate":"50",
+     "working_hour": 8,
+     "Ph_no":"8968853598",
+     "skill":"Not found"
+ }
+]

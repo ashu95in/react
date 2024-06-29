@@ -1,0 +1,42 @@
+.EmpyCard{
+    border: 2px solid #666666;
+    outline: 2px solid black;
+    background-color: #d5d2d2;;
+    width: 15vw;
+    height: 20vw;
+    margin-top: 2vw;
+    margin-left: .4vw;
+    font-weight: 700;
+    font-size: 1vw;
+    display: flex;
+    float: left;
+    margin-left: 2vw;
+    position: relative;
+    
+}
+
+.EmpyCard ul{
+    list-style: square;
+     color: darkblue;
+         
+}
+.remove{
+
+    width: 3vw;
+    height: 1.2vw;
+    float:  right;
+    color: rgb(8, 7, 9);
+    border: 2px solid #131313;
+    background-color: #d5d2d2;
+    position: absolute;
+    float :left;
+    margin-left: 11.8vw;
+    margin-top: .1vw;
+    
+}
+
+.remove:hover {
+    border: 1px solid #666666;
+    outline: 2px solid rgb(251, 14, 14);
+    background-color: #d5d2d2;
+}

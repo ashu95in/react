@@ -1,0 +1,52 @@
+.cont {
+    display: flex;
+    border: 1px solid snow;
+    color: white;
+    height: 6vw;
+    background-color: #393939;
+    border: 2px solid #666666;
+}
+
+.cont input {
+    font-family: arial;
+    font-size: 1rem;
+    margin-top: 1vw;
+    background-color: #252525;
+    border: 1px solid #949393;
+    color: #fff;
+    width: 14vw;
+    height: 1.4vw;
+    font-weight: 700;
+
+}
+
+.findbtn {
+    font-weight: 800;
+    width: 5vw;
+    height: 1.4vw;
+    margin-top: 1.2vw;
+    margin-right: .5vw;
+    margin-left: .5vw;
+    color: rgb(8, 7, 9);
+    border: 2px solid #666666;
+    background-color: #d5d2d2;
+}
+
+.findbtn:hover {
+    outline: 3px solid #666666;
+    background-color: #d5d2d2;
+}
+
+.cont input:focus {
+    outline: 1px solid #666666;
+}
+
+.info {
+    border: 2px solid black;
+    color: rgb(13, 223, 13);
+    font-weight: 500;
+    font-size: 1.1vw;
+    width: 13vw;
+    height: 1.8vw;
+
+}
