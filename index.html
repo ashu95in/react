@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Genrator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+  <center><h1 class="title">Random Password Generator</h1>
+  <h4 class="title">Create strong and secure passwords to keep your account safe online.</h4>
+</center>
+  <div class="inner_container">
+         <p class="showPassword_box">Get password</p>
+         <button class="btn"><img src="copy.png" alt="copy" srcset="" onclick="copyToClipborad()"></button>
+         <button class="btn" onclick="refresh()"><img src="refresher.png" alt=""></button>
+              
+  </div>
+  <div class="charcterRange">
+  <input type="range" name="range" id="Range" max="25" value="6">
+  <p id="rangevalue">6</p>
+  <p class="copyOR">copy</p>
+</div>
+</div>
+
+
+<script src="index.js"></script>
+</body>
+</html>
